@@ -32,7 +32,7 @@ const Tab3: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         {/* Reccomended to use map() to loop through JSON array returned from WP */}
-        <IonList id="stuff-list">
+        <IonList id="posts-list">
           <IonListHeader>Posts</IonListHeader>
           {dataset.map((item, index) => (
             <IonItem lines="inset" key={index}>
